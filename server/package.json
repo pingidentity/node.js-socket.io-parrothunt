@@ -1,0 +1,36 @@
+{
+  "name": "API-Proxy",
+  "version": "1.0.0",
+  "description": "Elastic Beam API-Proxy demo for websocket cookie stickiness loadbalancing",
+  "main": "server.js",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "dblite": "^0.4.1",
+    "sqlite3": "^2.0.18",
+    "socket.io": "^0.9.16",
+    "tough-cookie": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elasticbeam/node.js-socket.io-parrothunt"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "API-Proxy",
+    "Cookie",
+    "Stickiness",
+    "Loadbalancing"
+  ],
+  "author": "Credits Lallasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elasticbeam/node.js-socket.io-parrothunt/issues"
+  },
+  "homepage": "https://github.com/elasticbeam/node.js-socket.io-parrothunt"
+}
